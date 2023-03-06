@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+<style type="text/css">
+	body {
+	 background-color: rgb(10,25,45);
+	}
+	input {
+	 color: aqua;
+	 background-color: black;
+	}
+	div { 
+	text-align: center;
+	background-color: rgb(10,25,45);
+	display : flex;
+	justify-content: center;
+  	align-items: center;
+	
+}
+</style>
+</head>
+<body>
+	<div>
+		<form action="login_link" method="post">
+			<input placeholder="Username" type="text" name="username"> <br> <br>
+			<input placeholder="Password" type="password" name="password" > <br> <br>
+			<input type="submit" value="Login" name="login">
+			<input type="submit" value="Create Account" name="create_account"> <br> <br>
+			<input type="submit" value="Forgot Password" name="forgot_password"> 
+			<input type="submit" value="Forgot Username" name="forgot_username">
+		</form>
+	</div>
+</body>
+</html>
